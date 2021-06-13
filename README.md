@@ -26,7 +26,7 @@ af -> ()=>
 eslint-disable -> /* eslint-disable */
 
 eslint-disable-line -> /* eslint-disable-line */
-    
+
 eslint-disable-next-line -> /* eslint-disable-next-line */
 ```
 
@@ -50,14 +50,17 @@ qsa -> document.querySelectorAll()
 ce -> document.createElement()
 
 .al -> .addEventListener('load', function () {})
+```
 
-express ->
-    const express = require('express')
-	const app = express()
-	const port = process.env.PORT || 5000
+`express`
 
-	app.get('/', (req, res) => res.send('Hey there!'))
+```js
+const express = require('express')
+const app = express()
+const port = process.env.PORT || 5000
 
-	app.listen(port, () => { console.log(`Server has started on port ${port}!!!`) })
+app.get('/', (req, res) => res.send('Hey there!'))
+
+app.listen(port, () => { console.log(`Server has started on port ${port}!!!`) })
 ```
 
