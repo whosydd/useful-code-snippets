@@ -1,0 +1,51 @@
+{
+  "require": {
+    "prefix": "req",
+    "body": "const ${1:moduleName} = require('${2:module}')$0"
+  },
+  "module exports": {
+    "prefix": "mex",
+    "body": "module.exports = {\n  $0\n}\n",
+    "description": "Module exports from CommonJS"
+  },
+  "import fs": {
+    "prefix": "ifs",
+    "body": "import fs from 'fs'"
+  },
+  "require fs": {
+    "prefix": "rfs",
+    "body": "const fs = require('fs')"
+  },
+  "import path": {
+    "prefix": "ipath",
+    "body": "import path from 'path'"
+  },
+  "require path": {
+    "prefix": "rpath",
+    "body": "const path = require('path')"
+  },
+  "import lodash": {
+    "prefix": "ilodash",
+    "body": "import _ from 'lodash'"
+  },
+  "require lodash": {
+    "prefix": "rlodash",
+    "body": "const _ = require('lodash')"
+  },
+  "arrow": {
+    "prefix": "af",
+    "body": "($1) => "
+  },
+  "eslint-disable-line": {
+    "prefix": "eslint-disable-line",
+    "body": "/* eslint-disable-line */"
+  },
+  "eslint-disable-next-line": {
+    "prefix": "eslint-disable-next-line",
+    "body": "/* eslint-disable-next-line */"
+  },
+  "eslint-disable": {
+    "prefix": "eslint-disable",
+    "body": "/* eslint-disable */"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "name": "useful-code-snippets",
+  "displayName": "Useful Code Snippets",
+  "description": "一些常用的代码片段",
+  "version": "0.1.0",
+  "engines": {
+    "vscode": "^1.46.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "license": "MIT",
+  "publisher": "whosydd",
+  "icon": "snippets.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/whosydd/useful-code-snippets.git"
+  },
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascript",
+        "path": "./snippets/snippets.code-snippets"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/snippets.code-snippets"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/snippets.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/snippets.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/javascript.code-snippets"
+      }
+    ]
+  }
+}
