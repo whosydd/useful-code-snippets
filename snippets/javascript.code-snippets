@@ -10,17 +10,17 @@
     "description": "Code snippet for immediately-invoked function expression"
   },
   "getElementById": {
-    "prefix": "gid",
+    "prefix": "did",
     "body": "document.getElementById('${1:id}')",
     "description": "Code snippet for \"getElementById\""
   },
   "getElementsByClassName": {
-    "prefix": "gcl",
+    "prefix": "dcl",
     "body": "document.getElementsByClassName('${1:class}')",
     "description": "Code snippet for \"getElementsByClassName\""
   },
   "getElementsByTagName": {
-    "prefix": "gtag",
+    "prefix": "dtag",
     "body": "document.getElementsByTagName('${1:tag}')",
     "description": "Code snippet for \"getElementsByTagName\""
   },
@@ -30,17 +30,17 @@
     "description": "Code snippet for \"addEventListener\""
   },
   "querySelector": {
-    "prefix": "qs",
+    "prefix": "dq",
     "body": "document.querySelector('${1}')",
     "description": "Code snippet for \"querySelector\""
   },
   "querySelectorAll": {
-    "prefix": "qsa",
+    "prefix": "dqa",
     "body": "document.querySelectorAll('$1')",
     "description": "Code snippet for \"querySelectorAll\""
   },
   "createElement": {
-    "prefix": "ce",
+    "prefix": "dce",
     "body": "document.createElement('$1')",
     "description": "Code snippet for \"createElement\""
   },

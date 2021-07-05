@@ -37,17 +37,17 @@ strict -> 'use strict'
 
 iife -> (function(){})()
 
-gid -> document.getElementById('id')
+did -> document.getElementById('id')
 
-gcl -> document.getElementsByClassName('class')
+dcl -> document.getElementsByClassName('class')
 
-gtag -> document.getElementsByTagName('tag')
+dtag -> document.getElementsByTagName('tag')
 
-qs -> document.querySelector()
+dq -> document.querySelector()
 
-qsa -> document.querySelectorAll()
+dqa -> document.querySelectorAll()
 
-ce -> document.createElement()
+dce -> document.createElement()
 
 .al -> .addEventListener('load', function () {})
 ```
