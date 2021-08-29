@@ -1,0 +1,287 @@
+{
+  "destructProps": {
+    "prefix": "cp",
+    "body": [
+      "const { $1 } = this.props"
+    ],
+    "description": "Creates and assigns a local variable using props destructing"
+  },
+  "destructState": {
+    "prefix": "cs",
+    "body": [
+      "const { $1 } = this.state"
+    ],
+    "description": "Creates and assigns a local variable using state destructing"
+  },
+  "import React": {
+    "prefix": "imr",
+    "body": [
+      "import React from 'react'",
+      ""
+    ]
+  },
+  "import PropTypes": {
+    "prefix": "impt",
+    "body": [
+      "import PropTypes from 'prop-types'",
+      ""
+    ]
+  },
+  "emptyState": {
+    "prefix": "est",
+    "body": [
+      "state = {",
+      "\t$0",
+      "}",
+      ""
+    ],
+    "description": "Creates empty state object. To be used in a constructor."
+  },
+  "createRef": {
+    "prefix": "cref",
+    "body": [
+      "this.${1:refName}Ref = React.createRef()",
+      ""
+    ],
+    "description": "Create ref statement used inside constructor"
+  },
+  "forwardRef": {
+    "prefix": "fref",
+    "body": [
+      "const ref = React.createRef()",
+      ""
+    ],
+    "description": "Forward ref statement used inside component"
+  },
+  "componentSetStateObject": {
+    "prefix": "sst",
+    "body": "this.setState({$0})",
+    "description": "Performs a shallow merge of nextState into current state"
+  },
+  "componentSetStateFunc": {
+    "prefix": "ssf",
+    "body": [
+      "this.setState((state, props) => {\n\t$0\n})",
+      ""
+    ],
+    "description": "Performs a shallow merge of nextState into current state"
+  },
+  "reactClassComponent": {
+    "prefix": "rcc",
+    "body": [
+      "import React, { Component } from 'react'",
+      "",
+      "export default class ${1:${TM_FILENAME_BASE}} extends Component {",
+      "\trender() {",
+      "\t\treturn (",
+      "\t\t\t<div>",
+      "\t\t\t\t$0",
+      "\t\t\t</div>",
+      "\t\t)",
+      "\t}",
+      "}",
+      ""
+    ],
+    "description": "Creates a React component class with ES7 module system"
+  },
+  "reactClassExportComponent": {
+    "prefix": "rce",
+    "body": [
+      "import React, { Component } from 'react'",
+      "",
+      "export class ${1:${TM_FILENAME_BASE}} extends Component {",
+      "\trender() {",
+      "\t\treturn (",
+      "\t\t\t<div>",
+      "\t\t\t\t$0",
+      "\t\t\t</div>",
+      "\t\t)",
+      "\t}",
+      "}",
+      "",
+      "export default ${1:${TM_FILENAME_BASE}}",
+      ""
+    ],
+    "description": "Creates a React component class with ES7 module system"
+  },
+  "reactClassExportComponentWithPropTypes": {
+    "prefix": "rcep",
+    "body": [
+      "import React, { Component } from 'react'",
+      "import PropTypes from 'prop-types'",
+      "",
+      "export class ${1:${TM_FILENAME_BASE}} extends Component {",
+      "\tstatic propTypes = {",
+      "",
+      "\t}",
+      "",
+      "\trender() {",
+      "\t\treturn (",
+      "\t\t\t<div>",
+      "\t\t\t\t$0",
+      "\t\t\t</div>",
+      "\t\t)",
+      "\t}",
+      "}",
+      "",
+      "export default ${1:${TM_FILENAME_BASE}}",
+      ""
+    ],
+    "description": "Creates a React component class with ES7 module system"
+  },
+  "reactClassCompomentPropTypes": {
+    "prefix": "rccp",
+    "body": [
+      "import React, { Component } from 'react'",
+      "import PropTypes from 'prop-types'",
+      "",
+      "export default class ${1:${TM_FILENAME_BASE}} extends Component {",
+      "\tstatic propTypes = {",
+      "\t\t${2:prop}: ${3:PropTypes}",
+      "\t}",
+      "",
+      "\trender() {",
+      "\t\treturn (",
+      "\t\t\t<div>",
+      "\t\t\t\t$0",
+      "\t\t\t</div>",
+      "\t\t)",
+      "\t}",
+      "}",
+      ""
+    ],
+    "description": "Creates a React component class with PropTypes and ES7 module system"
+  },
+  "reactFunctionalComponent": {
+    "prefix": "rfc",
+    "body": [
+      "import React from 'react'",
+      "",
+      "export default function ${1:${TM_FILENAME_BASE}}() {",
+      "\treturn (",
+      "\t\t<div>",
+      "\t\t\t$0",
+      "\t\t</div>",
+      "\t)",
+      "}",
+      ""
+    ],
+    "description": "Creates a React Functional Component with ES7 module system"
+  },
+  "reactFunctionalExportComponent": {
+    "prefix": "rfce",
+    "body": [
+      "import React from 'react'",
+      "",
+      "function ${1:${TM_FILENAME_BASE}}() {",
+      "\treturn (",
+      "\t\t<div>",
+      "\t\t\t$0",
+      "\t\t</div>",
+      "\t)",
+      "}",
+      "",
+      "export default ${1:${TM_FILENAME_BASE}}",
+      ""
+    ],
+    "description": "Creates a React Functional Component with ES7 module system"
+  },
+  "reactFunctionalComponentWithPropTypes": {
+    "prefix": "rfcp",
+    "body": [
+      "import React from 'react'",
+      "import PropTypes from 'prop-types'",
+      "",
+      "function ${1:${TM_FILENAME_BASE}}(props) {",
+      "\treturn (",
+      "\t\t<div>",
+      "\t\t\t$0",
+      "\t\t</div>",
+      "\t)",
+      "}",
+      "",
+      "${1:${TM_FILENAME_BASE}}.propTypes = {",
+      "",
+      "}",
+      "",
+      "export default ${1:${TM_FILENAME_BASE}}",
+      "",
+      ""
+    ],
+    "description": "Creates a React Functional Component with ES7 module system with PropTypes"
+  },
+  "reactClassPureComponent": {
+    "prefix": "rpc",
+    "body": [
+      "import React, { PureComponent } from 'react'",
+      "",
+      "export default class ${1:${TM_FILENAME_BASE}} extends PureComponent {",
+      "\trender() {",
+      "\t\treturn (",
+      "\t\t\t<div>",
+      "\t\t\t\t$0",
+      "\t\t\t</div>",
+      "\t\t)",
+      "\t}",
+      "}",
+      ""
+    ],
+    "description": "Creates a React pure component class with ES7 module system"
+  },
+  "reactClassExportPureComponent": {
+    "prefix": "rpce",
+    "body": [
+      "import React, { PureComponent } from 'react'",
+      "",
+      "export class ${1:${TM_FILENAME_BASE}} extends PureComponent {",
+      "\trender() {",
+      "\t\treturn (",
+      "\t\t\t<div>",
+      "\t\t\t\t$0",
+      "\t\t\t</div>",
+      "\t\t)",
+      "\t}",
+      "}",
+      "",
+      "export default ${1:$TM_FILENAME_BASE}",
+      ""
+    ],
+    "description": "Creates a React pure component class with ES7 module system export"
+  },
+  "reactClassPureComponentWithPropTypes": {
+    "prefix": "rpcp",
+    "body": [
+      "import React, { PureComponent } from 'react'",
+      "import PropTypes from 'prop-types'",
+      "",
+      "export default class ${1:${TM_FILENAME_BASE}} extends PureComponent {",
+      "\tstatic propTypes = {",
+      "",
+      "\t}",
+      "",
+      "\trender() {",
+      "\t\treturn (",
+      "\t\t\t<div>",
+      "\t\t\t\t$0",
+      "\t\t\t</div>",
+      "\t\t)",
+      "\t}",
+      "}",
+      ""
+    ],
+    "description": "Creates a React component class with ES7 module system"
+  },
+  "mappingToProps": {
+    "prefix": "reduxmap",
+    "body": [
+      "const mapStateToProps = (state) => ({",
+      "\t${1}",
+      "})",
+      "",
+      "const mapDispatchToProps = {",
+      "\t",
+      "}",
+      ""
+    ]
+  },
+}

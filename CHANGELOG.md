@@ -2,6 +2,12 @@
 
 All notable changes to the "Useful code snippets" extension will be documented in this file.
 
+## [0.2.0]
+
+- 添加 html 和 vue 文件支持
+- 添加 react 相关代码片段
+- 追加部分常用代码片段
+
 ## [0.1.2]
 
 - 修改部分代码片段

@@ -2,7 +2,7 @@
   "name": "useful-code-snippets",
   "displayName": "Useful Code Snippets",
   "description": "一些常用的代码片段",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "engines": {
     "vscode": "^1.57.0"
   },
@@ -35,8 +35,28 @@
         "path": "./snippets/snippets.code-snippets"
       },
       {
+        "language": "html",
+        "path": "./snippets/snippets.code-snippets"
+      },
+      {
+        "language": "vue",
+        "path": "./snippets/snippets.code-snippets"
+      },
+      {
         "language": "javascript",
         "path": "./snippets/javascript.code-snippets"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/javascript.code-snippets"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/react.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/react.code-snippets"
       }
     ]
   }
