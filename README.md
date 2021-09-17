@@ -38,6 +38,8 @@ rlodash -> const _ = require('lodash')
 iaxios -> import axios from 'axios'
 
 raxios -> const axios = require('axios')
+
+dotenv -> require('dotenv').config()
 ```
 
 ### function

@@ -2,6 +2,11 @@
 
 All notable changes to the "Useful code snippets" extension will be documented in this file.
 
+## [0.2.1]
+
+- fixed bug
+- 追加`dotenv`代码片段
+
 ## [0.2.0]
 
 - 添加 html 和 vue 文件支持

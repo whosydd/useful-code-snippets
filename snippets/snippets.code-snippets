@@ -2,19 +2,19 @@
   // export
   "module.exports": {
     "prefix": "mex",
-    "body": "module.exports = {\n  $0\n}\n",
+    "body": "module.exports = {\n  $0\n}\n"
   },
   "export default": {
     "prefix": "exp",
-    "body": "export default {\n  $0\n}\n",
+    "body": "export default {\n  $0\n}\n"
   },
   "export func": {
     "prefix": "enf",
-    "body": "export const ${1:funcName} = (${2:params}) => {\n\t$0\n}",
+    "body": "export const ${1:funcName} = (${2:params}) => {\n\t$0\n}"
   },
   "export default func": {
     "prefix": "edf",
-    "body": "export default (${1:params}) => {\n\t$0\n}",
+    "body": "export default (${1:params}) => {\n\t$0\n}"
   },
   // import
   "require": {
@@ -56,6 +56,10 @@
   "require axios": {
     "prefix": "raxios",
     "body": "const axios = require('axios')\n$0"
+  },
+  "require dotenv": {
+    "prefix": "dotenv",
+    "body": "require('dotenv').config()\n$0"
   },
   // function
   "arrow": {
@@ -106,7 +110,7 @@
   },
   "for of": {
     "prefix": "fof",
-    "body": "for (const ${1:itemName} of ${2:objectName} {\n\t$0\n}"
+    "body": "for (const ${1:itemName} of ${2:objectName}) {\n\t$0\n}"
   },
   "for in": {
     "prefix": "fin",
@@ -134,5 +138,5 @@
   "setInterval": {
     "prefix": "sti",
     "body": "setInterval(() => $0, ${1:interval})"
-  },
+  }
 }
