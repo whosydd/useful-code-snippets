@@ -2,6 +2,10 @@
 
 All notable changes to the "Useful code snippets" extension will be documented in this file.
 
+## [0.2.2]
+
+- 修改 `exp` 为 `exd`
+
 ## [0.2.1]
 
 - fixed bug
