@@ -6,7 +6,11 @@
   },
   "export default": {
     "prefix": "exd",
-    "body": "export default {\n  $0\n}\n"
+    "body": "export default $0"
+  },
+  "export obj": {
+    "prefix": "exo",
+    "body": "export {\n\t$0\n}"
   },
   "export func": {
     "prefix": "enf",

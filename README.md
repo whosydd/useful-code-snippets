@@ -9,7 +9,9 @@
 ```js
 mex -> module.exports = {}
 
-exd -> export default {}
+exd -> export default
+
+exo -> export {}
 
 enf -> export const funcName = (params) => {}
 
