@@ -77,9 +77,9 @@ eslint-disable-next-line -> /* eslint-disable-next-line */
 
 .reduce -> .reduce((item) => , )
 
-fof -> for (const itemName of objectName) {}
+fof -> for (let itemName of objectName) {}
 
-fin -> for (const itemName in objectName) {}
+fin -> for (let itemName in objectName) {}
 ```
 
 ### promise

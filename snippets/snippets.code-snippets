@@ -114,11 +114,11 @@
   },
   "for of": {
     "prefix": "fof",
-    "body": "for (const ${1:itemName} of ${2:objectName}) {\n\t$0\n}"
+    "body": "for (let ${1:itemName} of ${2:objectName}) {\n\t$0\n}"
   },
   "for in": {
     "prefix": "fin",
-    "body": "for (const ${1:itemName} in ${2:objectName} {\n\t$0\n}"
+    "body": "for (let ${1:itemName} in ${2:objectName} {\n\t$0\n}"
   },
   // promise
   "return promise": {
