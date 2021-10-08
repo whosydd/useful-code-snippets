@@ -2,6 +2,10 @@
 
 All notable changes to the "Useful code snippets" extension will be documented in this file.
 
+## [0.2.5]
+
+- fix `fin`
+
 ## [0.2.4]
 
 - fix `fof` `fin`

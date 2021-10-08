@@ -2,7 +2,7 @@
   "name": "useful-code-snippets",
   "displayName": "Useful Code Snippets",
   "description": "一些常用的代码片段",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "engines": {
     "vscode": "^1.57.0"
   },
