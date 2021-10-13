@@ -323,3 +323,10 @@ const mapStateToProps = (state) => ({});
 
 const mapDispatchToProps = {};
 ```
+
+## Thanks
+
+[ES7 React/Redux/GraphQL/React-Native snippets](https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets)
+
+Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+
