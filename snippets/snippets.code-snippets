@@ -142,5 +142,10 @@
   "setInterval": {
     "prefix": "sti",
     "body": "setInterval(() => $0, ${1:interval})"
+  },
+  "header-format": {
+    "prefix": "hf",
+    "body": "const headers = {}\n${1:header}.split('\\n').map(item => {\n\tconst h = item.split(': ')\n\tObject.assign(headers, { [h[0]]: h[1] })\n})",
+    "description": "将header字符串格式化为headers对象"
   }
 }

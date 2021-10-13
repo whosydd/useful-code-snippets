@@ -104,6 +104,18 @@ sto -> setTimeout(() =>  , timeout)
 sti -> setInterval(() =>  , interval)
 ```
 
+### hf ( 将header字符串格式化为对象)
+
+```js
+const headers = {}
+header.split('\n').map(item => {
+  const h = item.split(': ')
+  Object.assign(headers, { [h[0]]: h[1] })
+})
+```
+
+
+
 ## 仅适用于`js`
 
 ```js
