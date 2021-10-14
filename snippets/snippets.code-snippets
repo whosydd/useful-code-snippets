@@ -110,7 +110,7 @@
   },
   "reduce": {
     "prefix": ".reduce",
-    "body": ".reduce((item) => $0,$1)"
+    "body": ".reduce((pre, cur) => {\n\t$0\n}, $1)"
   },
   "for of": {
     "prefix": "fof",

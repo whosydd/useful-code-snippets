@@ -75,7 +75,7 @@ eslint-disable-next-line -> /* eslint-disable-next-line */
 
 .filter -> .filter((item) => )
 
-.reduce -> .reduce((item) => , )
+.reduce -> .reduce((pre, cur) => , )
 
 fof -> for (let itemName of objectName) {}
 
@@ -104,17 +104,15 @@ sto -> setTimeout(() =>  , timeout)
 sti -> setInterval(() =>  , interval)
 ```
 
-### hf ( 将header字符串格式化为对象)
+### hf ( 将 header 字符串格式化为对象)
 
 ```js
-const headers = {}
-header.split('\n').map(item => {
-  const h = item.split(': ')
-  Object.assign(headers, { [h[0]]: h[1] })
-})
+const headers = {};
+header.split("\n").map((item) => {
+  const h = item.split(": ");
+  Object.assign(headers, { [h[0]]: h[1] });
+});
 ```
-
-
 
 ## 仅适用于`js`
 
@@ -329,4 +327,3 @@ const mapDispatchToProps = {};
 [ES7 React/Redux/GraphQL/React-Native snippets](https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets)
 
 Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
-
